@@ -10,8 +10,8 @@ goods have been selected, the user can proceed to the order confirmation
 process.
 
 ## Requirements
-To run this program, you will need the `requirement.txt` file list installed
-on your system.
+To run this program, you will need the `requirements.txt` file list
+installed on your system.
 
 ## Setup
 To set up the project on your local machine, follow these steps:
@@ -29,9 +29,9 @@ You should now be able to access the website at http://127.0.0.1:8000/
 
 ## Usage
 To use the website, simply browse the product catalog and add items to your
-shopping cart. When you are ready to checkout, you initiate the process and
-wait for confirmation from an administrator. You can also create a customer
-account to manage your orders and personal information.
+shopping cart. When you are ready to checkout, you can initiate the process
+and wait for confirmation from an administrator. You can also create a
+customer account to manage your orders and personal information.
 
 ## Contributing
 If you would like to contribute to the development of this website, please
