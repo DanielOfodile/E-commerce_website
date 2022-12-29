@@ -14,3 +14,11 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+nav:
+  - Home: /index.html
+  - About: /about.html
+  - Blog: /blog/index.html
+  - Contact: /contact.html
+
+plugins:
+  - jekyll-collections

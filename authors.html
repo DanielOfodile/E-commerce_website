@@ -1,0 +1,11 @@
+<a href="/authors.html">Authors</a>
+{% for author in site.authors %}
+  <h2>{{ author.name }}</h2>
+  <p>{{ author.bio }}</p>
+  <ul>
+    {% for profile in author.social %}
+      <li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
