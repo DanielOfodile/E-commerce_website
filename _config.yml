@@ -1,3 +1,6 @@
+theme: jekyll-theme-minimal
+title: E-commerce Website Home Page
+description: A virtual market place that allows users buy and sell with ease
 lsi: false
 safe: true
 source: main
