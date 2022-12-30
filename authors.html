@@ -1,11 +1,83 @@
-<a href="/authors.html">Authors</a>
-{% for author in site.authors %}
-  <h2>{{ author.name }}</h2>
-  <p>{{ author.bio }}</p>
+---
+layout: default
+title: Authors
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1E90FF;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="" href="https://danielofodile.github.io/E-commerce_website">Home</a>
+  <a href="/E-commerce_website/README.md">Blog</a>
+  <a href="/E-commerce_website/contact.html">Contact</a>
+  <a href="/E-commerce_website/about.html">About</a>
+  <a href="/E-commerce_website/authors.html">Authors</a>
+</div>
+
+</body>
+</html>
+
+<html>
+<head>
+  <title>Authors</title>
+</head>
+<body>
+  <h1>Authors</h1>
   <ul>
-    {% for profile in author.social %}
-      <li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
-    {% endfor %}
+    <li>
+      <img src="/E-commerce_website/assets/images/ofodile-daniel.png" alt="Ofodile Daniel">
+      <h2>Ofodile Daniel</h2>
+      <p>Daniel is an emerging software developer with a passion for building useful and engaging applications. He has experience in a variety of programming languages and technologies, including C, python, and JavaScript.
+      <ul>
+        <li><a href="https://twitter.com/danielofodile">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/ofodiledaniel">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/danielofodile">Github</a></li>
+      </ul>
+    </li>
+    <li>
+      <img src="/images/author2.jpg" alt="Author 2">
+      <h2>Author 2</h2>
+      <ul>
+        <li><a href="https://twitter.com/author2">Twitter</a></li>
+        <li><a href="https://www.facebook.com/author2">Facebook</a></li>
+        <li><a href="https://www.instagram.com/author2">Instagram</a></li>
+      </ul>
+    </li>
   </ul>
-{% endfor %}
+</body>
+</html>
 
