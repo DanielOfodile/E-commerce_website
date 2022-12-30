@@ -19,6 +19,8 @@ nav:
   - About: /about.html
   - Blog: /blog.html
   - Contact: /contact.html
+  - Authors: /authors.html
+  - Features: /features.html
 
 plugins:
   - jekyll-collections
