@@ -20,10 +20,7 @@ To set up the project on your local machine, follow these steps:
 2. Navigate to the project directory: `cd E-commerce_website`
 3. Download python.
 4. Install the requirements: `pip install -r requirements.txt`
-5. [Optional - Not a prerequisite] Create the database and run migrations:
-    `python manage.py makemigrations`
-    `python manage.py migrate`
-6. Run the development server: `python manage.py runserver`
+5. Run the development server: `python manage.py runserver`
 
 You should now be able to access the website at http://127.0.0.1:8000/
 
