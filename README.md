@@ -31,7 +31,7 @@ and wait for confirmation from an administrator. You can also create a
 customer account to manage your orders and personal information.
 
 ## Contributing
-If you would like to contribute to the development of this website, please
+If you would like to make contributions to the development of this website, please
 feel free to submit a pull request with your changes.
 
 ## Authors
